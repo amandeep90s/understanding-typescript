@@ -1,14 +1,10 @@
-function add(number1, number2, showResult, resultPhrase) {
-    var result = number1 + number2;
-    if (showResult) {
-        console.log(resultPhrase + result);
-    }
-    else {
-        return number1 + number2;
-    }
-}
-var number1 = 10;
-var number2 = 58.8;
-var printResult = true;
-var phrase = "Result is: ";
-add(number1, number2, printResult, phrase);
+var person = {
+    name: 'Amandep Singh',
+    age: 33,
+};
+console.log(person.name, person.age);
+var person2 = {
+    name: 'Mandeep Singh',
+    age: 27,
+};
+console.log(person2.name, person2.age);

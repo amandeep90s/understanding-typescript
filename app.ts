@@ -1,16 +1,16 @@
-function add(number1: number, number2: number, showResult: boolean, resultPhrase: string) {
-    const result = number1 + number2;
-    if (showResult) {
-        console.log(resultPhrase + result);
-    } else {
+const person = {
+  name: 'Amandep Singh',
+  age: 33,
+};
 
-        return number1 + number2;
-    }
-}
+console.log(person.name, person.age);
 
-const number1 = 10;
-const number2 = 58.8;
-const printResult = true;
-const phrase = "Result is: ";
+const person2: {
+  name: string;
+  age: number;
+} = {
+  name: 'Mandeep Singh',
+  age: 27,
+};
 
-add(number1, number2, printResult, phrase);
+console.log(person2.name, person2.age);
